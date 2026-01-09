@@ -6,7 +6,7 @@ Projeto com foco em **estudo, prática de consumo de APIs e portfólio**.
 
 ---
 
-## 📱 Preview da Aplicação
+## Preview da Aplicação
 
 > Print da aplicação Flutter rodando no navegador (Chrome ou Edge):
 
@@ -15,7 +15,7 @@ Projeto com foco em **estudo, prática de consumo de APIs e portfólio**.
 
 ---
 
-## 🌐 API Pública Utilizada
+## API Pública Utilizada
 
 - **JSONPlaceholder**
 - Endpoint:
@@ -28,7 +28,7 @@ API gratuita amplamente utilizada para testes e protótipos.
 
 ---
 
-## 🧪 Testes da API no Postman
+## Testes da API no Postman
 
 Antes da integração com o Flutter, o endpoint foi testado no **Postman**, validando:
 - Status HTTP
@@ -40,7 +40,7 @@ Antes da integração com o Flutter, o endpoint foi testado no **Postman**, vali
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Flutter
 - Dart
@@ -50,7 +50,7 @@ Antes da integração com o Flutter, o endpoint foi testado no **Postman**, vali
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 lib/
 ├── models/
@@ -66,7 +66,7 @@ Copy code
 
 ---
 
-## ▶️ Como executar o projeto
+## Como executar o projeto
 
 1. Clone o repositório:
    ```bash
