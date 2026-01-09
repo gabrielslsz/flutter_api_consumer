@@ -1,24 +1,44 @@
 # Flutter API Consumer
 
-Aplicação Flutter desenvolvida com o objetivo de **consumir uma API REST pública**, exibindo dados em tela de forma assíncrona e organizada, seguindo boas práticas de estruturação de projeto.
+Aplicação Flutter desenvolvida para **consumir uma API REST pública**, validada previamente no **Postman**, exibindo os dados em uma interface simples e organizada.
 
-## 📱 Funcionalidades
+Projeto com foco em **estudo, prática de consumo de APIs e portfólio**.
 
-- Consumo de API REST via HTTP
-- Listagem de dados em tempo real
-- Tratamento de estados (loading e erro)
-- Arquitetura separada por responsabilidades (Model, Service e UI)
+---
 
-## 🌐 API Utilizada
+## 📱 Preview da Aplicação
+
+> Print da aplicação Flutter rodando no navegador (Chrome ou Edge):
+
+<!-- ADICIONE O PRINT DO APP AQUI -->
+![App Screenshot](prints/print01.png)
+
+---
+
+## 🌐 API Pública Utilizada
 
 - **JSONPlaceholder**
 - Endpoint:
-https://jsonplaceholder.typicode.com/posts
+GET https://jsonplaceholder.typicode.com/posts
 
-markdown
+yaml
 Copy code
 
-API gratuita, ideal para testes e protótipos.
+API gratuita amplamente utilizada para testes e protótipos.
+
+---
+
+## 🧪 Testes da API no Postman
+
+Antes da integração com o Flutter, o endpoint foi testado no **Postman**, validando:
+- Status HTTP
+- Estrutura do JSON
+- Campos retornados pela API
+
+<!-- ADICIONE O PRINT DO POSTMAN AQUI -->
+![Postman Screenshot](prints/postman.png)
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -26,6 +46,9 @@ API gratuita, ideal para testes e protótipos.
 - Dart
 - HTTP package
 - Material Design
+- Postman (testes de API)
+
+---
 
 ## 📂 Estrutura do Projeto
 
@@ -38,8 +61,10 @@ lib/
 │ └── home_page.dart
 └── main.dart
 
-bash
+yaml
 Copy code
+
+---
 
 ## ▶️ Como executar o projeto
 
@@ -61,3 +86,4 @@ Execute a aplicação:
 bash
 Copy code
 flutter run
+Escolha um dispositivo (recomendado: Chrome)
